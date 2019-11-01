@@ -1,0 +1,41 @@
+Tablename:pokemon
+column name1: id , stores the id of the pokemon
+column name2: name ,stores the name of the pokemon
+column name3: weight, stores the weiht of the pokemon
+
+CREATE TABLE pokemon (
+    id     INTEGER PRIMARY KEY
+                   UNIQUE
+                   NOT NULL,
+    name   STRING,
+    weight DECIMAL
+);
+
+
+Tablename:pokemonMove
+column name1: id ,stores the id of the move
+column name2: pokemon_id ,stores the id of pokemon who has this move
+column name3: accuracy ,stores the accuracy of the move
+column name4: name ,stores the name of the move
+column name5: type_id ,stores the id of type which has this move
+
+
+CREATE TABLE pokemonMove (
+    id         INTEGER,
+    pokemon_id INTEGER,
+    accuracy   DECIMAL,
+    name       STRING,
+    type_id    INTEGER
+);
+
+Tablename: pokemonType
+column name1: name ,stores the type of the pokemon
+column name2: pokemon_id ,stores the pokemon id which has this type
+
+column name3: id ,stores the id of the type
+
+CREATE TABLE pokemonType (
+    name       STRING,
+    pokemon_id INTEGER,
+    id         INTEGER NOT NULL
+);
