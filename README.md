@@ -10,7 +10,7 @@ Prerequisite to run the part_x_2.py
 please run all the create table scripts as mentioned in part_x_1.txt and proceed to below steps
 
 Command to run part_x_2:
-python3 part_x_2.py <number of pokemons to download> <path of sqllite database>
+python3 part_x_2.py #number of pokemons to download #path of sqllite database
 
 example command:
 python3 pokemon_download.py 15 /Users/nikhilsagarmekhala/Desktop/sqlLiteDB.db
@@ -26,7 +26,7 @@ NOTE: part_x_3.py contains all the functions which pulls data from sqlite and ge
 3.movesByPokemon():Returns Total moves by pokemon
 4.movesByPokemonOnlyByType(): Returns total moves by pokemon with only the types mentioned in their data
 
-python3 part_x_3.py <path of the sqlite database folder>
+python3 part_x_3.py #path of the sqlite database folder
 
 example command:
 python3 part_x_3.py /Users/nikhilsagarmekhala/Desktop/sqlLiteDB.db
