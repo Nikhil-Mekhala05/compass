@@ -1,4 +1,4 @@
-# compass
+# Steps to run the scripts
 
 Prerequisite to run the python file
 Run the command on the linux command prompt
